@@ -1,0 +1,9 @@
+ifconfig eth0/wlan0
+_______________
+/etc/hosts
+________________
+10.0.2.15 sevidor servidor.red.local
+
+archivo de configuracion
+
+
