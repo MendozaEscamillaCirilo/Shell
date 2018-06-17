@@ -1,0 +1,354 @@
+ip = 10.168.2.217
+mask= 255.255.254.0
+gate= 10.168.3.254
+
+puerto = 4567
+
+/etc/hosts
+
+
+2018-02-25
+hernandezblasantonio.nsupdate.info/pub/packages/2018-02-25/LEEME.txt
+hernandezblasantonio.nsupdate.info/pub/packages
+
+
+navegadores web  - opera,vivaldi,chrome,etc
+links, lynx, wget, curl
+
+man wget
+man curl
+
+atom visual studio
+
+shell para actualizar los programas 
+
+
+at para programar acada cuando se ejecuta algo
+
+
+
+
+4 imagenes y 4 videos
+
+imagenes:jpg, png, bmp,gif
+videos: avi, wmu, mkv, webm,mp4
+Audio: mp3, flac, wma m4a
+texto plano: txt, csv, xml, json
+binarios: pdf, xls, zip, exe
+
+
+=> recursos estaticos
+|-home/
+   |-alumno/
+        |-www/
+           |-httpd01/
+                |-*
+                |-archivo.jpg
+                
+                
+                
+                
+servidor httpd
+                 genera un listado de los recursos estaticos en un documento de HTML
+                    |
+                    |
+http://hosts:puerto/*  <-->  $HOME/www/httpd01
+http://hosts:puerto/archivo.jpg  <-->  $HOME/www/httpd01/archivo.jpg
+
+
+ACCEDER A LOS ARCHIVOS Y PONER AENCION CON LAS HERRAMIENTAS DE DESARROLLADOR
+
+
+
+
+////////////10.168.3.1
+/--> hostapd
+/etc/hostapd/hostapd.conf
+interface=*****************
+ssid=*******************
+
+chanel=**********
+
+ip link set dev ***** up
+
+
+
+
+Android: F-Droid
+
+termux
+
+wify analyzer
+ 
+jaws
+
+
+
+-------------------
+programa cliente
+  navegador web
+  interprete de html
+  
+ paradigma declarativo
+ 
+ https://www.w3schools.com/
+ 
+ https://developer.mozilla.org/en-US/
+ 
+ http://www.w3fools.com/
+ 
+ mv archivo.html index.html
+ 
+ 
+ 
+ -------------------------------
+ 
+ Enlace o vínculo(a)
+  <a href="valor">texto</a>
+ 
+ 
+ 
+ -----------------------_________
+ 
+ =>Elementos			 _
+    ->bloque(block): h1, p	  |
+      [contenedores]		  |--Flujo(flow)
+    ->en linea(inline):strong, em_|
+    
+    
+    
+____________________________
+
+=>propiedades
+  =>selectores
+  
+  =>shortcuts (atajos)
+     font:___  ___  ___ ___
+     background
+     
+     
+_______________________________________________
+
+=>contenedores: <span>  y  <div>
+--                               --
+|section, nav,article,aside,header|
+|footer,...	 		  |
+--				 --
+
+web developer
+responsive desing mobile
+
+
+
+________________________________________________
+CSS
+  selectors:
+    *etiqueta/tipo
+    *atr. class
+    *atr. id
+    *agrupacion:
+      selector1,selector2,selectorN
+   _____________________________________________________________________________________________   
+  | *contextuales:									        |
+  |    selectorExterno selectorinterno selectorInterno {}    |  > hijos que sean inmediatos	|muy específicos
+  | *valor de atr.
+  |    [src*=foto-personal]{}
+  ----------------------------------------------------------------------------------------------  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+_____________________________________________________________________________________________________________________________________  
+  /??????????////////////////////?????/////?????????///////????///???02/MAYO/2018????//???//??////////???////??/////??////??////??///
+  
+  sitio web
+  
+  *lecturas
+    *cuento
+    *opinion personal
+    *listar terminos/glosario
+    *Comentarios(Disk)
+    
+    imagenes
+    3 disenios
+    
+    
+    /////
+    =>DESARROLLO    <- programacion (java)
+      =>Java EE
+	=>Tomcat
+	  ->instalacion
+	  ->configuracion
+	  ->practicas
+	    ->practica 1
+
+
+=>eclipse EE<=a usar
+
+
+
+algoritmos y estructuras de datos
+
+________________________________________________________________________________________________________________________________________
+interface
+httpServletRequest
+HttpServletResponse
+
+___________________________
+
+Datos implicitos
+  headers(solicitud HTTP)
+    USER-AGENT * ACCEPT-ENCODING
+    ACCEPT     * ACCEPT-LANGUAGE
+  Solicitud de red
+    Direccion remota
+  URL/URI
+Datos explicitos
+  Query String(cadena de consulta)
+    ?cadena
+  Paraetros
+    ?nombre1=valor&nombre2=valor2
+  
+  
+request.getRemoteAddr()
+request.getRequestURI()
+request.getRequestURL()
+request.getQueryString()
+request.getParameter("x")
+
+
+System.out.println("" + (
+(Integer.parseInt(request.getParameter("x")))
++
+(Integer.parseInt(request.getParameter("y")))
+));
+________________________________________________________________________________________________________________________________________
+int z = 0;
+PrintWriter salida = response.getWriter();
+salida.println();
+saida .append(z);
+salida.append(String.valueOf(z));
+solicitud
+  datos/informacion:
+    implicita: headers + info
+	      cliente/
+    explicita: Query String + parametros
+	      conversiones
+	      s->p
+	      t  r
+	      
+respuesta
+  datos/informacion
+    implicita: headers
+    explicita: payload
+	  (texto plano)
+	  p->s
+	  r  t
+wget -o /dev/null -O - URL
+
+response.setHeadre("Content-Type","image/image.png");
+
+
+
+
+_______________________________________________
+
+=> implicita
+     *headers/request(scket)
+		      RED
+=> explicita
+     *querystring/parametros <-> URL
+     *formulario HTML/Parametros<->Documento HTML {coleccion  witget}
+     
+     
+Stringbuffer
+
+metod=metodo de http
+action=quien atiende la solicitud
+
+<form method="post" action=""
+
+|input type=color,date,email,number,password,time,radio,range|
+
+<input type=\"time\" id=\"input-time\" name=\"input-time\" value=\"\" placeholder=\"ingresa algo...\"/>
+
+
+type = tipo de input
+value = valor a darle al Elemento
+name = nombre dado al parametro
+
+---////
+lo mismo de cifrado
+textarea
+input tipo texto
+
+mensaje text
+dezplazamiento number
+boton tipo submit
+
+
+
+_____________________________________________________________________________________________
+
+1.-solicitud GET /contexto/SErvletA
+2.-Genera el documento HTML ene l formulario
+3.-El usuario rellena/interactan con los widget del formulario
+4.-Da clic al boton submit
+5.-solicitud POST
+6.-procesar los datos enviados en la solicitud POST
+7.-¿validacion?
+8.-generar una respuesta
+
+
+
+/////////////
+SystemRescueCD
+
+///////////////
+
+________________________________________________
+
+extender 
+
+en lugar de generar el mismo formulario pero con el texto cifrado
+
+
+mensaje claro
+mensaje cifrado
+desplazamiento
+boton
+
+
+
+
+_______________________________________________
+
+1.- get /servletCifrado
+2.-respuesta con datos HTML
+3.-se interactua con el formulario como usuario
+4.- post/servletCifrado
+5.-
+
+
+
+
+
+////////////////////////////////////
+you mingth not neet a css framework
+//////////////////////////////////
+
+________________________________________________________________________________________________________________________________________
+sumatoria de los numeros y color
+_______________________________________________

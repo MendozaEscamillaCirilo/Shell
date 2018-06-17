@@ -1,0 +1,29 @@
+descargar heroju
+
+
+1.-obtener cuenta de usuario
+2.-instalar eroku CLI
+oter instalation methods
+tarballs
+heroku-linux-x64.tar.gz
+$PATH
+
+____________________
+
+.$heroku --version
+3.-iniciar secion en heroku CLI
+	$heroku login
+4.-instalar plugins
+	$heroku plugins:install heroku-cli-deploy
+5.-$heroku war:deploy archivo.war --ap app               app es creada en heroku y el .war el exportado de eclipse
+
+pasos vienne en 
+heroku
+war
+deplyment
+(heroku CLI)
+
+http://app01.heroku.io
+
+
+Cifrado atbash
